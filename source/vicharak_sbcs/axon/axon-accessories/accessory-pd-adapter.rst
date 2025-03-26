@@ -4,7 +4,7 @@
  Power Delivery (PD) Adapter with PD cable
 ###########################################
 
-.. image:: ../../../_static/images/rk3399-vaaman/accessory-pd-adapter.webp
+.. image:: ../../../_static/images/rk3399-vaaman/accessory-pd-adapter.png
    :width: 40%
    :align: center
 

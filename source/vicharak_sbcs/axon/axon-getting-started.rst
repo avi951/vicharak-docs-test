@@ -66,7 +66,7 @@ Axon OS Credentials
 Axon Button Guide
 =================
 
-.. image::  ../../_static/images/rk3588-axon/axon-button-guide.webp
+.. image::  ../../_static/images/rk3588-axon/axon-button-guide.png
     :width: 50%
 
 
@@ -124,7 +124,7 @@ Once the power is connected, the board will automatically turn on.
     | The board is designed to operate with a 12V power supply, and using a 5V power
     | input may lead to instability and potential damage.
 
-.. image:: ../../_static/images/rk3588-axon/axon-power-details.webp
+.. image:: ../../_static/images/rk3588-axon/axon-power-details.png
    :width: 60%
 
 Axon is pre-installed with Ubuntu (``Jammy``) on its eMMC storage.
@@ -141,7 +141,7 @@ immediate visual indicator of the board's power status. This LED signifies that
 the Axon is receiving power, and its illumination provides users with a
 tangible confirmation of the successful power connection.
 
-.. image:: ../../_static/images/rk3588-axon/axon-power-led.webp
+.. image:: ../../_static/images/rk3588-axon/axon-power-led.png
     :width: 50%
 
 Verify the status LED
@@ -152,7 +152,7 @@ the completion of the booting process. This visual cue assures users that the
 Axon has successfully booted from its storage medium and is ready for further
 configuration.
 
-.. image:: ../../_static/images/rk3588-axon/axon-leds.webp
+.. image:: ../../_static/images/rk3588-axon/axon-leds.png
     :width: 50%
 
 .. warning::
@@ -205,7 +205,7 @@ can connect Axon to a monitor or TV with an HDMI input.
 This enables direct visual access to the graphical user interface (GUI) or
 command-line interface (CLI) on the connected display.
 
-.. image:: ../../_static/images/rk3588-axon/axon-hdmi.webp
+.. image:: ../../_static/images/rk3588-axon/axon-hdmi.png
     :width: 50%
 
 Connect the Micro HDMI to HDMI cable to the Axon and the monitor.
@@ -271,7 +271,7 @@ Hardware Setup
      - Pin 2 (GPIO0_B6)
      - UART2_RX_M0_DEBUG
 
-.. image:: ../../_static/images/rk3588-axon/axon-serial-uart-pins.webp
+.. image:: ../../_static/images/rk3588-axon/axon-serial-uart-pins.png
    :width: 50%
 
 .. note::

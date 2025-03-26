@@ -50,7 +50,7 @@ Methods to enter Maskrom mode
 
     .. tab-item:: Pogo pins
 
-        .. image:: /_static/images/rk3399-vaaman/vaaman-maskrom-mode.webp
+        .. image:: /_static/images/rk3399-vaaman/vaaman-maskrom-mode.png
             :width: 50%
 
         1. Connect Power Delivery ``(PD)`` Cable to Vaaman and connect ``USB Type-C cable`` to the board. 
@@ -113,7 +113,7 @@ Methods to enter Maskrom mode
         2. Connect the USB to UART serial converter to the board and your
            host computer.
 
-        .. image:: ../../_static/images/rk3399-vaaman/vaaman-serial-uart-pins.webp
+        .. image:: ../../_static/images/rk3399-vaaman/vaaman-serial-uart-pins.png
            :width: 50%
 
         3. Power on the board using the power delivery adapter. Open the serial
@@ -142,7 +142,7 @@ Methods to enter Maskrom mode
         2. Connect the USB to UART serial converter to the board and your
            host computer.
 
-        .. image:: ../../_static/images/rk3399-vaaman/vaaman-serial-uart-pins.webp
+        .. image:: ../../_static/images/rk3399-vaaman/vaaman-serial-uart-pins.png
            :width: 50%
 
         3. Power on the board using the power delivery adapter.

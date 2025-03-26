@@ -12,14 +12,14 @@ and unpack it.
 ::::{admonition} How to fix **Windows Protected You PC Error**
 :class: dropdown
 
-:::{image} ../../\../../_static/images/windows-usb-driver-assistant-run-anyway.webp
+:::{image} ../../\../../_static/images/windows-usb-driver-assistant-run-anyway.png
 :::
 
 ::::
 
 Click on `Install` button available on the floating menu.
 
-:::{image} ../../\../../_static/images/windows-usb-driver-assistant-install.webp
+:::{image} ../../\../../_static/images/windows-usb-driver-assistant-install.png
 :width: 50%
 :::
 
@@ -27,7 +27,7 @@ Click on `Yes` button to confirm the installation.
 
 After the installation is complete, click on `OK` button to close the window.
 
-:::{image} ../../\../../_static/images/windows-usb-driver-assistant-install-finished.webp
+:::{image} ../../\../../_static/images/windows-usb-driver-assistant-install-finished.png
 :width: 50%
 :::
 
@@ -41,7 +41,7 @@ Change Tool language to English.
 - Change the `Selected` value from `1` to `2` for `Language` option.
 - Save the file and close it.
 
-:::{image} ../../\../../_static/images/windows-rkdevtool-language.webp
+:::{image} ../../\../../_static/images/windows-rkdevtool-language.png
 :width: 50%
 :::
 
@@ -50,12 +50,12 @@ Open the RKDevTool folder and run the `RKDevTool.exe` file.
 ::::{admonition} How to fix **Windows Protected You PC Error**
 :class: dropdown
 
-:::{image} ../../\../../_static/images/windows-rkdevtool-run-anyway.webp
+:::{image} ../../\../../_static/images/windows-rkdevtool-run-anyway.png
 :::
 
 ::::
 
-:::{image} ../../\../../_static/images/windows-rkdevtool-main-window.webp
+:::{image} ../../\../../_static/images/windows-rkdevtool-main-window.png
 :::
 
 ## How to use RKDevTool on Windows
@@ -63,7 +63,7 @@ Open the RKDevTool folder and run the `RKDevTool.exe` file.
 Connect the Vaaman board to the PC using the USB cable. You will see the
 `Found One LOADER Device` or `Found One MASKROM Device` message in the RKDevTool window.
 
-:::{image} ../../\../../_static/images/windows-rkdevtool-main-window.webp
+:::{image} ../../\../../_static/images/windows-rkdevtool-main-window.png
 :width: 78%
 :::
 
@@ -78,13 +78,13 @@ Refer to the [How to enter Maskrom Mode](#vaaman-maskrom-mode) for more details.
 
 Once the Vaaman board is booted into **Maskrom mode**, you can flash the **eMMC image** to the board.
 
-:::{image} ../../\../../_static/images/windows-rkdevtool-upgrade-firmware-not-selected.webp
+:::{image} ../../\../../_static/images/windows-rkdevtool-upgrade-firmware-not-selected.png
 :width: 78%
 :::
 
 **1. Click on the `Upgrade Firmware` button from the top bar and select the `firmware` option.**
 
-:::{image} ../../\../../_static/images/windows-rkdevtool-upgrade-firmware-selected.webp
+:::{image} ../../\../../_static/images/windows-rkdevtool-upgrade-firmware-selected.png
 :width: 78%
 :::
 
@@ -96,7 +96,7 @@ You can get the latest firmware from the [Vaaman Downloads](#downloads) page.
 
 **3. Click on the `Upgrade` button to start the flashing process.**
 
-:::{image} ../../\../../_static/images/windows-rkdevtool-upgrade-firmware-success.webp
+:::{image} ../../\../../_static/images/windows-rkdevtool-upgrade-firmware-success.png
 :width: 78%
 :::
 

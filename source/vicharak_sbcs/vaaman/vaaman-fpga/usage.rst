@@ -11,11 +11,11 @@ Also Refer to :
 
 **To run your code on  the FPGA, follow these steps:**
 
-.. image:: /_static/images/efinity_home.webp
+.. image:: /_static/images/efinity_home.png
    :width: 100%
 
 
-.. image:: /_static/images/Create_Project.webp 
+.. image:: /_static/images/Create_Project.png 
    :width: 100%
 
 
@@ -23,24 +23,24 @@ Also Refer to :
 After starting the IDE click on files and create a project. Write your project name 
 and select trion family  and fpga T120F324. **Timing model should be selected as C3** .
 
-.. image:: /_static/images/Choose_Board.webp
+.. image:: /_static/images/Choose_Board.png
    :width: 100%
 
 
 In the design tab you can select  your prefereable  HDL. Verilog ,systemverilog and VHDL are supported. Default is verilog.
 You can also add your rtl code while the creation of project and specify the top module.
 
-.. image:: /_static/images/Assign_Top_Mod_Verilog_Version.webp
+.. image:: /_static/images/Assign_Top_Mod_Verilog_Version.png
    :width: 100%
 
 
 In Dashboard , you can add/create your verilog files by right-clicking on design tab under your project.
 
-.. image:: /_static/images/Create_Design_File.webp
+.. image:: /_static/images/Create_Design_File.png
    :width: 100%
 
 
-.. image:: /_static/images/verilog_creation.webp
+.. image:: /_static/images/verilog_creation.png
    :width: 100%
 
 
@@ -48,13 +48,13 @@ In Dashboard , you can add/create your verilog files by right-clicking on design
 Default gedit editor will pop-up on right side on which you can write your code. Save the code.
 `led blinking demo code <https://github.com/vicharak-in/LED_BLINKING_DEMO.git>`_. 
 
-.. image:: /_static/images/Open_Interface_Designer.webp
+.. image:: /_static/images/Open_Interface_Designer.png
    :width: 100%
 
 
 Now you need to  open inferace designer to map your signals to the fpga boards GPIO.
 
-.. image:: /_static/images/Create_Reqd_Block.webp
+.. image:: /_static/images/Create_Reqd_Block.png
    :width: 100%
 
 
@@ -68,7 +68,7 @@ Create a gpio block and configure  your  pins as input/output  mode as per your 
 The FPGA have crystall oscillators  which can give frequency upto 74.5Mhz. You can use this crystall oscillators as source
 clock and generate the desired frequency via PLL.
 
-.. image:: /_static/images/pll.webp
+.. image:: /_static/images/pll.png
    :width: 100%
 
 
@@ -76,57 +76,57 @@ clock and generate the desired frequency via PLL.
 While creating the gpio block for source clock you need to change its connection  type from normal to PLL_CLK_IN. and give this pin any crystall oscillator
 in resouce assigner.
 
-.. image:: /_static/images/create_pll_gpio.webp
+.. image:: /_static/images/create_pll_gpio.png
    :width: 100%
 
 
 For PLL  you need to create a PLL block as done for gpio. Select the source clk. The selected source clk instance name would
 be shown below once selected.
 
-.. image:: /_static/images/Choose_pll_pin.webp
+.. image:: /_static/images/Choose_pll_pin.png
    :width: 100%
 
 
 Here both automated calculation and manual calculation options are available for setting the  PLL. You can choose any of these
 as per your convenience. Here you have to mention your actual clock input which will be fed in the design.
 
-.. image:: /_static/images/connect_pll_output.webp
+.. image:: /_static/images/connect_pll_output.png
    :width: 100%
 
 
 Navigate to the resource assigner to map the pins on board. You can refer to `pinout guide  </_static/files/Vaaman0.3_Pinout_Guide_Rev0.3.pdf>`_ for mapping. By entering the 
 package pin the rest of the colums would be to auto-fill
 
-.. image:: /_static/images/Assign_Pins.webp
+.. image:: /_static/images/Assign_Pins.png
    :width: 100%
 
 
 Now check for design issue. It throws error if there's any error in mapping the pins. Now save the interface design.
 
-.. image:: /_static/images/Check_Design.webp
+.. image:: /_static/images/Check_Design.png
    :width: 100%
 
 You can also give constrains for your design by creating a constrain file with .sdc extension.
 
-.. image:: /_static/images/constrain_create.webp
+.. image:: /_static/images/constrain_create.png
    :width: 100%
 
 
 Here you can mention your virtual clock or mention the input/output delay. According to the constrain the software will
 perform the placement and routing to meet the desired perfomance.
    
-.. image:: /_static/images/constraint_file.webp
+.. image:: /_static/images/constraint_file.png
    :width: 100%
 
 
-.. image:: /_static/images/sdc_file.webp
+.. image:: /_static/images/sdc_file.png
    :width: 100%
 
 Now just press synthesis option to run your entire flow. By default it will run the entire flow of synthesis, placement ,routing and bitsream generation.
 You can toggle it off for running one flow at time. After running the entire flow in project directory and outflow/ directory will
 generated containing all the generated files at each step.
 
-.. image:: /_static/images/auto_flow.webp
+.. image:: /_static/images/auto_flow.png
    :width: 100%
 
 Now follow the steps  on :ref:`vaaman-fpga`  to dump your  generated bitstream on FPGA.
@@ -157,14 +157,14 @@ Create a Debug Profile:
 
 
 
-.. image:: /_static/images/Debugger_wizard.webp
+.. image:: /_static/images/Debugger_wizard.png
    :width: 100%
 
 
 4. Choose "Elaborated Netlist" or "Post-Map" in the Signals from list.
 5. Select led and counter buses from the left list and move them to the right using the >> button.
 
-.. image:: /_static/images/steps_wizard.webp
+.. image:: /_static/images/steps_wizard.png
    :width: 100%
 
 
@@ -174,7 +174,7 @@ Create a Debug Profile:
 
 
 
-.. image:: /_static/images/finish_wizard.webp 
+.. image:: /_static/images/finish_wizard.png 
    :width: 100%
 
 9. The software prompts for recompilation. Click OK.
@@ -189,7 +189,7 @@ Programming  FPGA for debugger
 1. Launch the Debugger by choosing Tools > Open Debugger. 
 
 
-.. image:: /_static/images/debugger.webp
+.. image:: /_static/images/debugger.png
    :width: 100%
 
 2. Ensure the Board is recognized as the USB Target. If not, connect the board and click Refresh USB Targets.
@@ -198,7 +198,7 @@ Programming  FPGA for debugger
 5. Click Start Programming. The console will display programming messages.
 
 
-.. image:: /_static/images/debugger_steps.webp
+.. image:: /_static/images/debugger_steps.png
    :width: 100%
 
 

@@ -17,7 +17,7 @@ Installation
       You can download the the software from `here <https://www.efinixinc.com/support/efinity.php>`_.
       (Efinity software provides a free liscense.To get a free license, register at efinix  `Support Center <https://www.efinixinc.com/support/index.php>`_. )
 
-      .. image:: /_static/images/reg.webp
+      .. image:: /_static/images/reg.png
        	 :width: 100%
 	
 

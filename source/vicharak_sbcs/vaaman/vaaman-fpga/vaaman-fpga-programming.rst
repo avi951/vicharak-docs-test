@@ -23,7 +23,7 @@
            While connecting the Programmer module, make sure to follow the
            indicated color code as shown in the image.
         
-        .. image:: /_static/images/rk3399-vaaman/FPGA_JTAG_PROG.webp
+        .. image:: /_static/images/rk3399-vaaman/FPGA_JTAG_PROG.png
            :width: 50%
         
         2. Download the BIT file
@@ -44,7 +44,7 @@
            -  Select the JTAG Programming mode.
            -  Start the programming process.
         
-        .. image:: /_static/images/rk3399-vaaman/vaaman-efinity-programmer-jtag.webp
+        .. image:: /_static/images/rk3399-vaaman/vaaman-efinity-programmer-jtag.png
            :width: 50%
         
         Wait for the programming to complete. When the programming is complete,
@@ -77,7 +77,7 @@ Vaaman board blinking.
 
 This indicates that the FPGA is configured with the bitstream.
 
-.. image:: /_static/images/rk3399-vaaman/vaaman-fpga-user-leds.webp
+.. image:: /_static/images/rk3399-vaaman/vaaman-fpga-user-leds.png
    :width: 50%
 
 .. tip::

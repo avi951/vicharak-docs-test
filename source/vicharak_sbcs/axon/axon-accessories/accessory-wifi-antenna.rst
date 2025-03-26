@@ -4,7 +4,7 @@
  Wi-Fi and Bluetooth Antenna
 #############################
 
-.. image:: ../../../_static/images/rk3588-axon/accessory-wifi-antenna.webp
+.. image:: ../../../_static/images/rk3588-axon/accessory-wifi-antenna.png
    :width: 50%
    :align: center
 

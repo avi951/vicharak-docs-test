@@ -35,7 +35,7 @@ Once you have obtained the IP address of your device, open your preferred web br
 
 ``http://<IP>:5000``
 
-.. image:: ../../_static/images/vaaman_remote_upload_home.webp
+.. image:: ../../_static/images/vaaman_remote_upload_home.png
 
 
 After entering the URL, press Enter. You will be directed to the login page of the Vaaman Remote Upload application. If you are using the board for the first time, please note that the default login credentials are username and password of the board:
@@ -56,7 +56,7 @@ After successfully logging in, you will be directed to the home page of Vaaman R
 
    Ensure that you have turned on the FPGA communication overlay from the "Vicharak-Config".
 
-.. image:: ../../_static/images/vaaman_remote_upload_dashboard.webp
+.. image:: ../../_static/images/vaaman_remote_upload_dashboard.png
 
 To upload a HEX file from your computer, click on the "Folder-icon(File Upload Area)".Once you've selected the file for upload, the uploading process will begin. You can monitor the progress of the file upload as it takes place.
 
@@ -66,12 +66,12 @@ To connect to a Wi-Fi network, follow these steps:
 2. A small popup will appear displaying a list of available Wi-Fi networks.
 3. Select the **SSID** of the network you want to connect to.
 
-.. image:: ../../_static/images/vaaman_remote_upload_ssid.webp
+.. image:: ../../_static/images/vaaman_remote_upload_ssid.png
 
 4. A new popup window will open where you’ll need to enter the network’s password.
 5. After entering the password, proceed to connect to the network.
 
-.. image:: ../../_static/images/vaaman_remote_upload_connect.webp
+.. image:: ../../_static/images/vaaman_remote_upload_connect.png
 
 
 .. _vaaman-remote-upload-mobile:
@@ -90,11 +90,11 @@ Once you are connect to VaamanHost, open your smartphone's web browser and enter
    :widths: 50 50
    :align: center
 
-   * - .. image:: ../../_static/images/vaaman_remote_home_mob.webp
+   * - .. image:: ../../_static/images/vaaman_remote_home_mob.png
         :width: 100%
         :height: 700px
         :alt: Screenshot 1
-     - .. image:: ../../_static/images/vaaman_remote_home_mob_dark.webp
+     - .. image:: ../../_static/images/vaaman_remote_home_mob_dark.png
         :width: 100%
         :height: 700px
         :alt: Screenshot 2
@@ -128,11 +128,11 @@ After logging in, you'll see the home screen of Vaaman Remote Upload. If this is
     :widths: 50 50
     :align: center
  
-    * - .. image:: ../../_static/images/vaaman_remote_upload_file.webp
+    * - .. image:: ../../_static/images/vaaman_remote_upload_file.png
          :width: 100%
          :height: 700px
          :alt: Screenshot 1
-      - .. image:: ../../_static/images/vaaman_remote_upload_file_upload.webp
+      - .. image:: ../../_static/images/vaaman_remote_upload_file_upload.png
          :width: 100%
          :height: 700px
          :alt: Screenshot 2

@@ -10,7 +10,7 @@ To install python on Windows you can:
 2. You can directly open Microsoft Store and search python.
 3. Install the latest python that you can find.
 
-![install-python-from-store](./images/install-python-microsoft-store.webp)
+![install-python-from-store](./images/install-python-microsoft-store.png)
 
 ### Install pipenv using pip
 
@@ -20,7 +20,7 @@ For installing `pipenv` on your system use the following command.
 pip install pipenv
 ```
 
-![install-pipenv](./images/pip-install-pipenv.webp)
+![install-pipenv](./images/pip-install-pipenv.png)
 
 ### Install the dependencies inside python virtual environment
 
@@ -33,7 +33,7 @@ Use following command to setup python virtual environment for building docs.
 python -m pipenv update
 ```
 
-![install-pipenv-dependencies](./images/python-pipenv-update.webp)
+![install-pipenv-dependencies](./images/python-pipenv-update.png)
 
 ### Enter the python virtual environment
 
@@ -43,7 +43,7 @@ Use following command to enter python virtual environment.
 python -m pipenv shell
 ```
 
-![python-virtual-env](./images/python-pipenv-shell.webp)
+![python-virtual-env](./images/python-pipenv-shell.png)
 
 ---
 

@@ -94,7 +94,7 @@ Use `git clone --depth=1` to shallow clone the repository
 
 :::{tab-item} Using Web Browser
 
-![vicharak-uboot-github](/_static/images/vicharak-uboot-github.webp)
+![vicharak-uboot-github](/_static/images/vicharak-uboot-github.png)
 
 **Follow the steps in above image.**
 

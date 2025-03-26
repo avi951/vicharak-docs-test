@@ -9,7 +9,7 @@
         2. Open the PuTTY program and configure the serial parameters as shown
 		   in the image below.
 
-        .. image:: ../../_static/images/Putty_step.webp
+        .. image:: ../../_static/images/Putty_step.png
            :width: 50%
 
         3. Click on the **Open** button to open the serial console.
@@ -27,7 +27,7 @@
         - Select the serial port number and configure the serial parameters
           as shown in the image below.
 
-        .. image:: ../../_static/images/teraterm-configuration.webp
+        .. image:: ../../_static/images/teraterm-configuration.png
            :width: 50%
 
         3. Click on the **OK** button to open the serial console.
@@ -48,7 +48,7 @@
         - Select the serial port number and configure the serial parameters as
           shown in the image below.
 
-        .. image:: ../../_static/images/gtkterm-configuration.webp
+        .. image:: ../../_static/images/gtkterm-configuration.png
            :width: 50%
 
         3. Click on the **OK** button to open the serial console.

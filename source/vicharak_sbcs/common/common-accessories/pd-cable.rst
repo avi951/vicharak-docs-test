@@ -4,7 +4,7 @@
  Power Delivery (PD) cable
 ###########################################
 
-.. image:: ../../../_static/images/rk3399-vaaman/acccessories-pd-cable.webp
+.. image:: ../../../_static/images/rk3399-vaaman/acccessories-pd-cable.png
    :width: 30%
    :align: center
 

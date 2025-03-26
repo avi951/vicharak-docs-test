@@ -61,7 +61,7 @@ Using a suitable file system (such as FAT32 or EXT4) format the NVMe.
                    | In the above command, ``nvme``**X**``n1`` is the name of the NVMe drive.
                    | **`X`** is the number of the NVMe drive, it starts from 0.
 
-               .. image:: ../../_static/images/parted-overview.webp
+               .. image:: ../../_static/images/parted-overview.png
                   :width: 50%
 
                |
@@ -74,7 +74,7 @@ Using a suitable file system (such as FAT32 or EXT4) format the NVMe.
 
                |
 
-               .. image:: ../../_static/images/parted-partitions-list.webp
+               .. image:: ../../_static/images/parted-partitions-list.png
                   :width: 50%
 
                4. **Delete** the existing partitions using the following command:
@@ -87,7 +87,7 @@ Using a suitable file system (such as FAT32 or EXT4) format the NVMe.
 
                5. After deleting all the partitions, the partition table should look like this:
 
-               .. image:: ../../_static/images/parted-deleted-partitions.webp
+               .. image:: ../../_static/images/parted-deleted-partitions.png
                   :width: 50%
 
                |
@@ -155,35 +155,35 @@ write the image to the NVMe.
 
 	   1. Open the **Balena Etcher** tool.
 
-	   .. image:: ../../_static/images/balena-start.webp
+	   .. image:: ../../_static/images/balena-start.png
 		  :width: 50%
 
 	   |
 
 	   2. Click on **Select Image** and select the image file.
 
-	   .. image:: ../../_static/images/balena-select-image.webp
+	   .. image:: ../../_static/images/balena-select-image.png
 		  :width: 50%
 
 	   |
 
 	   3. Click on **Select Target** and select the NVMe.
 
-	   .. image:: ../../_static/images/balena-select-storage.webp
+	   .. image:: ../../_static/images/balena-select-storage.png
 		  :width: 50%
 
 	   |
 
 	   4. Click on **Flash** to start writing the image to the NVMe.
 
-	   .. image:: ../../_static/images/balena-start-flash.webp
+	   .. image:: ../../_static/images/balena-start-flash.png
 		  :width: 50%
 
 	   |
 
 	   5. Once the writing process is complete, click on **Done**.
 
-	   .. image:: ../../_static/images/balena-flash-complete.webp
+	   .. image:: ../../_static/images/balena-flash-complete.png
 		  :width: 50%
 
    .. tab-item:: UNIX **dd** command (CLI)
@@ -214,13 +214,13 @@ NVMe:
 #. Safely eject the **NVMe** from your computer.
 #. Insert the **NVMe** into your Vaaman SBC.
 
-.. image:: ../../_static/images/rk3399-vaaman/vaaman-nvme-pcie-interface.webp
+.. image:: ../../_static/images/rk3399-vaaman/vaaman-nvme-pcie-interface.png
    :width: 70%
 
 **Place the NVMe board on top of Vaaman and secure it by tightening the
 nuts.**
 
-.. image:: ../../_static/images/rk3399-vaaman/vaaman-nvme-module.webp
+.. image:: ../../_static/images/rk3399-vaaman/vaaman-nvme-module.png
    :width: 40%
 
 |
@@ -235,7 +235,7 @@ on.
 
    12V Power Input only! Do not use 5V power input.
 
-.. image:: ../../_static/images/rk3399-vaaman/Power_option.webp
+.. image:: ../../_static/images/rk3399-vaaman/Power_option.png
    :width: 40%
 
 ..

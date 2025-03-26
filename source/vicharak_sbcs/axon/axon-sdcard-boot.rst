@@ -35,49 +35,49 @@ Using a suitable file system (such as FAT32 or EXT4) format the SD-card.
 
                 2. Open the **Disks** application if you are using a GUI.
 
-                .. image:: ../../_static/images/Disks-overview.webp
+                .. image:: ../../_static/images/Disks-overview.png
                    :width: 50%
 
                 |
 
                 3. Select the SD-card from the left panel.
 
-                .. image:: ../../_static/images/Didsk-sdcard-show.webp
+                .. image:: ../../_static/images/Didsk-sdcard-show.png
                    :width: 50%
 
                 |
 
                 4. if partition is already present in SD Card then, Click on the **Delete selected partition** icon and select **Delete Partition**.
 
-                .. image:: ../../_static/images/Delete-selected-partition.webp
+                .. image:: ../../_static/images/Delete-selected-partition.png
                    :width: 50%
 
                 |
                 
                 5. After Deleting **All partition** we can see something like below.
 
-                .. image:: ../../_static/images/deleted-all-patrtition-in-sdcard.webp
+                .. image:: ../../_static/images/deleted-all-patrtition-in-sdcard.png
                    :width: 50%
 
                 |
 
                 6. Click on **Next** button.
 
-                .. image:: ../../_static/images/Disk-next.webp
+                .. image:: ../../_static/images/Disk-next.png
                    :width: 50%
 
                 |
 
                 7. Select the desired file system (e.g., FAT32) and click **Create**.
 
-                .. image:: ../../_static/images/create-format-of-ext4.webp
+                .. image:: ../../_static/images/create-format-of-ext4.png
                    :width: 50%
 
                 |
 
                 8. After the successful completion of the process, the **SD card** is formatted with the selected partition.
 
-                .. image:: ../../_static/images/format-complate.webp
+                .. image:: ../../_static/images/format-complate.png
                    :width: 50%
 
                 |
@@ -111,7 +111,7 @@ Using a suitable file system (such as FAT32 or EXT4) format the SD-card.
                    | In the above command, sd**X** is the name of the Storage drive.
                    | **`X`** is the number of the Storage drive, it starts from a.
 
-                .. image:: ../../_static/images/parted-overview.webp
+                .. image:: ../../_static/images/parted-overview.png
                    :width: 50%
 
                 |
@@ -124,7 +124,7 @@ Using a suitable file system (such as FAT32 or EXT4) format the SD-card.
 
                 |
 
-                .. image:: ../../_static/images/parted-partitions-list.webp
+                .. image:: ../../_static/images/parted-partitions-list.png
                    :width: 50%
 
                 4. **Delete** the existing partitions using the following command:
@@ -137,7 +137,7 @@ Using a suitable file system (such as FAT32 or EXT4) format the SD-card.
 
                 5. After deleting all the partitions, the partition table should look like this:
 
-                .. image:: ../../_static/images/parted-deleted-partitions.webp
+                .. image:: ../../_static/images/parted-deleted-partitions.png
                    :width: 50%
 
                 |
@@ -196,35 +196,35 @@ For demonstration purposes, we will use the **Balena Etcher tool** to write the 
 
         1. Open the **Balena Etcher** tool.
 
-        .. image:: ../../_static/images/balena-start.webp
+        .. image:: ../../_static/images/balena-start.png
            :width: 50%
 
         |
 
         2. Click on **Select Image** and select the image file.
 
-        .. image:: ../../_static/images/balena-select-image.webp
+        .. image:: ../../_static/images/balena-select-image.png
            :width: 50%
 
         |
 
         3. Click on **Select Target** and select the SD-card.
 
-        .. image:: ../../_static/images/balena-select-storage.webp
+        .. image:: ../../_static/images/balena-select-storage.png
            :width: 50%
 
         |
 
         4. Click on **Flash** to start writing the image to the SD-card.
 
-        .. image:: ../../_static/images/balena-start-flash.webp
+        .. image:: ../../_static/images/balena-start-flash.png
            :width: 50%
 
         |
 
         5. Once the writing process is complete, click on **Done**.
 
-        .. image:: ../../_static/images/balena-flash-complete.webp
+        .. image:: ../../_static/images/balena-flash-complete.png
            :width: 50%
 
     .. tab-item:: UNIX **dd** command (CLI)
@@ -254,7 +254,7 @@ After writing the image to the SD-card, follow these steps to boot from the SD-c
 
 2. Insert the **SD-card** into your Axon SBC.
 
-.. image:: ../../_static/images/rk3588-axon/axon-sdcard-boot.webp
+.. image:: ../../_static/images/rk3588-axon/axon-sdcard-boot.png
    :width: 45%
 
 |
@@ -267,5 +267,5 @@ Once the power is connected, the board will automatically turn on.
 .. danger::
     12V Power Input only! Do not use 5V power input.
 
-.. image:: ../../_static/images/rk3588-axon/axon-power-option.webp
+.. image:: ../../_static/images/rk3588-axon/axon-power-option.png
    :width: 45%

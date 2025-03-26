@@ -44,7 +44,7 @@ Axon is designed to cater to a diverse audience, including but not limited to:
 Block Diagram
 -------------
 
-.. image:: ../../_static/images/rk3588-axon/axon-v2-blockdiagram.webp
+.. image:: ../../_static/images/rk3588-axon/axon-v2-blockdiagram.png
    :width: 100%
 
 Features

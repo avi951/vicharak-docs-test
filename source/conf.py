@@ -4,6 +4,7 @@
 
 import os
 import sys
+import subprocess
 from datetime import date
 from sphinxawesome_theme.postprocess import Icons
 
@@ -15,6 +16,7 @@ author = "Vicharak Computers PVT LTD"
 copyright = f"{date.today().year}, {author}"
 version = "0.1"
 
+latex_engine = 'xelatex'  # or 'lualatex'
 # Extensions
 extensions = [
     "breathe",
@@ -101,6 +103,45 @@ html_baseurl = "https://docs.vicharak.in/"
 html_sidebars = {
   "**": ["sidebar_main_nav_links.html", "sidebar_toc.html"]
 }
+
+
+# LATEX PDF SETUP to support webp image extension
+#def convert_webp_to_png(app, docname, source):
+#    source_dir = app.srcdir
+#    for root, dirs, files in os.walk(source_dir):
+#        for file in files:
+#            if file.endswith(".webp"):
+#                webp_file = os.path.join(root, file)
+#                png_file = os.path.splitext(webp_file)[0] + ".png"
+#                if not os.path.exists(png_file):  # Avoid re-conversion
+#                    subprocess.run(['convert', webp_file, png_file])
+#                    print(f"Converted: {webp_file} -> {png_file}")
+#
+#def setup(app):
+#    app.connect('builder-inited', convert_webp_to_png)
+
+latex_elements = {
+    'papersize': 'a4paper',
+    'pointsize': '10pt',
+    'geometry': r'''
+        \usepackage{geometry}
+        \geometry{
+            top=25mm,       % Top margin: 25mm (~1 inch)
+            bottom=25mm,    % Bottom margin: 25mm
+            left=15mm,      % Left margin: 30mm (~1.2 inches)
+            right=15mm      % Right margin: 30mm
+        }
+    ''',
+    'preamble': r'''
+        \usepackage{fontspec}
+        \setmainfont{DejaVu Sans}
+    '''
+}
+
+# Project metadata (already set by sphinx-quickstart)
+project = 'Vicharak Documentation Guide'
+author = 'Vicharak Computer Pvt Ltd, Surat'
+release = '1.11.1.0'
 
 #favicons = [
 #    "images/android-chrome-192x192.png",

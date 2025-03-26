@@ -4,7 +4,7 @@
 Raspberry Pi Camera Module
 ############################
 
-.. image:: ../../../_static/images/rk3399-vaaman/accessory-rpi-camera-module.webp
+.. image:: ../../../_static/images/rk3399-vaaman/accessory-rpi-camera-module.png
    :width: 25%
    :align: center
 
@@ -62,17 +62,17 @@ Enable Overlays In Vaaman / Axon
 
 3. Select ``Overlays`` options in it by pressing ``enter`` key.
    
-   .. image:: ./../../../_static/images/rk3399-vaaman/Overlays_1.webp
+   .. image:: ./../../../_static/images/rk3399-vaaman/Overlays_1.png
                :width: 50%
 
 4. You will see Warning Page, click on ``yes`` and select ``Manage Overlays`` options.
 
-   .. image:: ./../../../_static/images/rk3399-vaaman/Overlays_2.webp
+   .. image:: ./../../../_static/images/rk3399-vaaman/Overlays_2.png
                :width: 50%
 
 5. Select overlays as per your camera part number ``( OV5647 / IMX219 )`` by pressing ``spacebar`` on keyboard, then select ``Ok``.
 
-   .. image:: ./../../../_static/images/rk3399-vaaman/Overlays_3.webp
+   .. image:: ./../../../_static/images/rk3399-vaaman/Overlays_3.png
                :width: 50%
 
 6. To return back to terminal, press the ``Esc`` key until you exit from it.
@@ -91,12 +91,12 @@ Setup
 
         1. Attach the camera along with FPC50 15 Pin 1mm pitch cable to the CSI connector.
 
-            .. image:: ./../../../_static/images/rk3399-vaaman/Camera_guide_0.webp
+            .. image:: ./../../../_static/images/rk3399-vaaman/Camera_guide_0.png
                 :width:  50%
         
         2. Open the Cheese application in your Ubuntu Linux operating system.
 
-            .. image:: ./../../../_static/images/rk3399-vaaman/Camera_1.webp
+            .. image:: ./../../../_static/images/rk3399-vaaman/Camera_1.png
                :width: 50%
 
         3. You will be shown Cheese camera interface.
@@ -105,16 +105,16 @@ Setup
 
         5. Click on ``Preferences`` and select ``rkisp_mainpath`` in Device option.
 
-            .. image:: ./../../../_static/images/rk3399-vaaman/Camera_2.webp
+            .. image:: ./../../../_static/images/rk3399-vaaman/Camera_2.png
                :width: 50%
 
 
-            .. image:: ./../../../_static/images/rk3399-vaaman/Camera_3.webp
+            .. image:: ./../../../_static/images/rk3399-vaaman/Camera_3.png
                :width: 50%
 
         6. Click on a webcam button in the middle of the bottom panel, or press the ``spacebar`` key, to take the photo.
         
-            .. image:: ./../../../_static/images/rk3399-vaaman/Camera_4.webp
+            .. image:: ./../../../_static/images/rk3399-vaaman/Camera_4.png
                :width: 50%
 
         7. There will be a short countdown, followed by a flash, and the photo will appear in the photo stream.
@@ -165,7 +165,7 @@ Setup
 
         1. Attach the camera along with FPC50 15 Pin 1mm pitch cable to the CSI connector.
          
-            .. image:: ./../../../_static/images/rk3399-vaaman/Camera_guide_0.webp
+            .. image:: ./../../../_static/images/rk3399-vaaman/Camera_guide_0.png
                 :width:  50%
         
         2. Install Python if not already installed. You can download Python from the official website: `Python Downloads <https://www.python.org/downloads/>`__.
@@ -227,13 +227,13 @@ Setup
 
         1. Upon running the program, the camera frame will open.
 
-           .. image:: ./../../../_static/images/rk3399-vaaman/python-script-camera-frame.webp
+           .. image:: ./../../../_static/images/rk3399-vaaman/python-script-camera-frame.png
               :alt: Image Description
               :width: 650
         
         2. Press the ``Ctrl+S`` key on your keyboard to capture an image.
 
-           .. image:: ./../../../_static/images/rk3399-vaaman/python-script-save-image.webp
+           .. image:: ./../../../_static/images/rk3399-vaaman/python-script-save-image.png
               :alt: Image Description
               :width: 650
 

@@ -33,7 +33,7 @@ Vaaman is useful to a wide range of users, these include but are not limited to:
 Block Diagram
 -------------
 
-.. image:: /_static/images/rk3399-vaaman/block_diagram.webp
+.. image:: /_static/images/rk3399-vaaman/block_diagram.png
    :width: 100%
 
 Features

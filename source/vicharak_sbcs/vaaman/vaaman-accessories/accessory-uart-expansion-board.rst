@@ -4,7 +4,7 @@
  UART Expansion Board Module
 #############################
 
-.. image:: ../../../_static/images/rk3399-vaaman/accessory-uart-expansion-board.webp
+.. image:: ../../../_static/images/rk3399-vaaman/accessory-uart-expansion-board.png
    :width: 40%
    :align: center
 

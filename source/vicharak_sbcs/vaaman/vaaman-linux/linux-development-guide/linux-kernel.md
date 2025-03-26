@@ -90,7 +90,7 @@ git clone https://github.com/vicharak-in/rockchip-linux-kernel -b master
 
 :::{tab-item} Using Web browser
 
-![vicharak-linux-kernel-github](../../../../_static/images/rk3399-vaaman/vicharak-linux-kernel-github.webp)
+![vicharak-linux-kernel-github](../../../../_static/images/rk3399-vaaman/vicharak-linux-kernel-github.png)
 
 **Follow the steps in above image.**
 
