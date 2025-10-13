@@ -10,7 +10,7 @@ Periplex is a 360-degree solution—it integrates fundamental Linux drivers, FPG
 
 Without Periplex, even FPGA developers would struggle for months to build a solution like this. Periplex reduces that effort to seconds. And the best part? It does the same for non-FPGA developers as well.
 
-.. image:: ../../../_static/images/rk3399-vaaman/periplex_flowchart.webp
+.. image:: /_static/images/rk3399-vaaman/periplex_flowchart.webp
    :width: 100%
    :align: center
 

@@ -4,7 +4,7 @@
  USB-C to USB-A Adapter
 ########################
 
-.. image:: ../../../_static/images/rk3399-vaaman/accessory-usb-c-to-usb-a-adapter.webp
+.. image:: /_static/images/rk3399-vaaman/accessory-usb-c-to-usb-a-adapter.webp
    :align: center
    :width: 40%
 

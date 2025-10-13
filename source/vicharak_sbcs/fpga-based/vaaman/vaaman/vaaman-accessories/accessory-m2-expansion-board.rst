@@ -4,7 +4,7 @@
  M.2 Expansion Board
 #####################
 
-.. image:: ../../../_static/images/rk3399-vaaman/accessory-nvme-module.webp
+.. image:: /_static/images/rk3399-vaaman/accessory-nvme-module.webp
    :width: 50%
    :align: center
 

@@ -5,7 +5,7 @@ PERIPLEX GPIO
 This section explains how to interact with the ``GPIO's`` controller generated on Vaaman via Periplex.
 
 How to Generate GPIO's on the Vaaman ?
-=====================================
+========================================
 
 1. **Create the json file:**
 

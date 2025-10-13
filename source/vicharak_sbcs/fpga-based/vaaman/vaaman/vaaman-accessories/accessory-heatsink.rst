@@ -4,7 +4,7 @@
  Heat Sink Accessory
 #####################
 
-.. image:: ../../../_static/images/rk3399-vaaman/accessory-heatsink.webp
+.. image:: /_static/images/rk3399-vaaman/accessory-heatsink.webp
    :width: 50%
    :align: center
 

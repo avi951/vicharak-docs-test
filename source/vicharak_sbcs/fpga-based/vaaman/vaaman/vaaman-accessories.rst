@@ -11,14 +11,14 @@
 .. grid:: 1 1 2 2
 
     .. grid-item-card:: Power Delivery (PD) Cable
-       :link: ../common/common-accessories/pd-cable
+       :link: /vicharak_sbcs/common/common-accessories/pd-cable
        :link-type: doc
        :shadow: md
 
        Power Delivery Cable for Vaaman
     
     .. grid-item-card:: Wi-Fi and Bluetooth Antenna
-       :link: vaaman-accessories/accessory-wifi-antenna
+       :link: /vicharak_sbcs/fpga-based/vaaman/vaaman-accessories/accessory-wifi-antenna
        :link-type: doc
        :shadow: md
        
@@ -37,7 +37,7 @@
 .. grid:: 1 1 2 2
 
     .. grid-item-card:: USB to UART Serial Module
-       :link: vaaman-accessories/accessory-usb-serial-module
+       :link: /vicharak_sbcs/fpga-based/vaaman/vaaman-accessories/accessory-usb-serial-module
        :link-type: doc
        :shadow: md
 
