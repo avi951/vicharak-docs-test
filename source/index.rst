@@ -8,13 +8,13 @@
 
 .. rst-class:: lead
 
-####################################
-Welcome to Vicharak's documentation!
-####################################
+######################################
+Edge Computers/Single Board Computers
+######################################
 
-Vicharak brings to you the powerful rk3399 based Vaaman and the highly advanced rk3588 based Axon single-board computers (SBCs).
-Designed for both hobbyists and professionals, these SBCs offer unparalleled performance and versatility for a wide range of
-applications including IoT, AI and multimedia processing.
+Vicharak introduces the advanced Vaaman (RK3399, FPGA-enabled) and Axon (RK3588) single-board computers — designed for high-performance edge computing.
+Tailored for both professionals and enthusiasts, these SBCs combine powerful processing with flexible design options.
+Together, they enable next-generation applications in IoT, AI, vision systems, and intelligent automation, bringing data processing and intelligence closer to the edge.
 
 .. |vaaman_top| image:: _static/images/rk3399-vaaman/Vaaman-top.webp
    :width: 100%
@@ -24,17 +24,18 @@ applications including IoT, AI and multimedia processing.
    :width: 100%
    :alt: axon top
 
+
 .. grid:: 1 1 2 2
 
     .. grid-item-card:: Vaaman SBC
-       :link: vicharak_sbcs/vaaman/vaaman-home
+       :link: vicharak_sbcs/fpga-based/vaaman/vaaman-home
        :link-type: doc
        :shadow: md
 
        |vaaman_top|
 
     .. grid-item-card:: Axon SBC
-       :link: vicharak_sbcs/axon/axon-home
+       :link: vicharak_sbcs/non-fpga-based/axon/axon-home
        :link-type: doc
        :shadow: md
 
@@ -44,26 +45,10 @@ applications including IoT, AI and multimedia processing.
    :glob:
    :caption: Contents
    :titlesonly:
-   :maxdepth: 5
+   :maxdepth: 12
 
-   Vaaman SBC <vicharak_sbcs/vaaman/vaaman-home>
-   Axon SBC <vicharak_sbcs/axon/axon-home>
-
-.. toctree::
-   :glob:
-   :titlesonly:
-   :caption: Downloads
-
-   Vaaman Downloads <vicharak_sbcs/vaaman/vaaman-downloads>
-   Axon Downloads <vicharak_sbcs/axon/axon-downloads>
-
-.. toctree::
-   :glob:
-   :caption: Accessories
-   :titlesonly:
-
-   Vaaman Accessories <vicharak_sbcs/vaaman/vaaman-accessories> 
-   Axon Accessories <vicharak_sbcs/axon/axon-accessories>
+   Edge Computers/Single Board Computers <vicharak_sbcs/index>
+..
 
 .. note::
 
