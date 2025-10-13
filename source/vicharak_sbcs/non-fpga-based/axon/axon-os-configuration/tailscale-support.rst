@@ -79,7 +79,7 @@ Show general information:
    tailscale netcheck
 
 Disconnect from Tailscale
------------------
+--------------------------
 
 To disconnect from the network:
 

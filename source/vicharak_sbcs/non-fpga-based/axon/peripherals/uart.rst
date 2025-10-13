@@ -166,7 +166,7 @@ Example
 
 
 Running the Serial Console Program
--------
+-----------------------------------
 
 .. tab-set::
 

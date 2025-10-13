@@ -63,7 +63,7 @@ Vicharak provides multiple Linux distributions for Axon SBC such as Debian, Ubun
 | TX                  | Pin 4 (GPIO0_B6)       | UART2_TX_M0_DEBUG  |
 | GND                 | Pin 6                  | GND                |
 
-:::{image} ../../../../_static/images/rk3588-axon/axon-serial-uart-pins.webp
+:::{image} /_static/images/rk3588-axon/axon-serial-uart-pins.webp
 :width: 50%
 :::
 
@@ -99,7 +99,7 @@ sudo gtkterm
   - Press **Ctrl+Shift+S**.
 - By using either of these methods, you will be able to access the configuration settings in GTK-Term, where you can make adjustments to the port settings for your serial connection.
   
-:::{image} ../../../../_static/images/gtkterm-configuration.webp
+:::{image} /_static/images/gtkterm-configuration.webp
 :width: 50%
 :::
 

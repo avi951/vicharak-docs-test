@@ -44,7 +44,7 @@ Axon is designed to cater to a diverse audience, including but not limited to:
 Block Diagram
 -------------
 
-.. image:: ../../_static/images/rk3588-axon/axon-v2-blockdiagram.webp
+.. image:: /_static/images/rk3588-axon/axon-v2-blockdiagram.webp
    :width: 100%
 
 Features
@@ -107,7 +107,7 @@ Physical Information
    * - Height
      - 21.125 mm
 
-.. image:: ../../_static/images/rk3588-axon/axon-dimension.webp
+.. image:: /_static/images/rk3588-axon/axon-dimension.webp
    :width: 75%
 
 .. tip::

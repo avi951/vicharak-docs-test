@@ -11,7 +11,7 @@
 .. grid:: 1 1 2 2
 
     .. grid-item-card:: Power Delivery (PD) PD Cable
-       :link: ../common/common-accessories/pd-cable
+       :link: /vicharak_sbcs/common/common-accessories/pd-cable
        :link-type: doc
        :shadow: md
 

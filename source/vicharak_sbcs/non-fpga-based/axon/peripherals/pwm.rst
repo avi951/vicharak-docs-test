@@ -18,7 +18,7 @@ PWM
         sudo apt reinstall linux-image-6.1.75-axon linux-headers-6.1.75-axon
 
 Introduction
------------
+-------------
 
 PWM stands for Pulse Width Modulation, a technique used to control the amount of power delivered to a device. PWM generates a digital signal that switches between high (on) and low (off) at a consistent frequency. The key characteristic of PWM is the "duty cycle," which represents the percentage of time the signal remains high in one cycle.
 
@@ -34,7 +34,7 @@ PWM stands for Pulse Width Modulation, a technique used to control the amount of
     To get more information on `Axon GPIO Header`_. 
 
 Understanding Duty Cycle in PWM
------------
+--------------------------------
 
 A 50% duty cycle means the signal is high for half the time and low for the other half.
 
@@ -43,7 +43,7 @@ A 100% duty cycle means the signal is always high.
 A 0% duty cycle means the signal is always low.
 
 Why Use PWM with GPIO?
----------------------
+-----------------------
 
 When a GPIO pin is configured for PWM, it allows you to generate a varying voltage or power level from a simple digital output. This configuration is useful for:
 

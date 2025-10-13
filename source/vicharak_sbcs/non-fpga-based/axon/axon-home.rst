@@ -6,14 +6,14 @@
 
 The **Axon Board Computer** (SBC) is powered by rockchip's **RK3588**
 
-.. image:: ../../_static/images/rk3588-axon/axon-top.webp
+.. image:: /_static/images/rk3588-axon/axon-top.webp
    :width: 50%
    :align: left
 
 .. toctree::
    :glob:
    :caption: Contents
-   :maxdepth: 5
+   :maxdepth: 6
    :titlesonly:
 
 
@@ -28,22 +28,9 @@ The **Axon Board Computer** (SBC) is powered by rockchip's **RK3588**
    Video Interface  <axon-video/index>
    OS Configuration <axon-os-configuration/index>
    Other System <axon-other-system>
-   Frequently Asked Questions <axon-faq>
-
-
-.. toctree::
-   :glob:
-   :titlesonly:
-   :caption: Downloads
-
    Axon Downloads <axon-downloads>
-
-.. toctree::
-   :glob:
-   :caption: Accessorie
-   :titlesonly:
-
    Axon Accessories <axon-accessories>
+   Frequently Asked Questions <axon-faq>
 
 .. note::
 

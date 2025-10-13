@@ -44,7 +44,7 @@ I2C is a multi-master, multi-slave, packet-switched, single-ended serial communi
 
 
 Key features of I2C include:
----------------------------
+-----------------------------
 
 - Addressable Devices: Each device connected to the I2C bus has a unique 7- or 10-bit address.
 

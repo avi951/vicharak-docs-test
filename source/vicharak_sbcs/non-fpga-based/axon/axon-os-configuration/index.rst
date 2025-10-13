@@ -3,7 +3,7 @@ Axon OS Configuration
 ######################
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    OS Details <basic>
    Set Hotspot <wifi-hotspot>

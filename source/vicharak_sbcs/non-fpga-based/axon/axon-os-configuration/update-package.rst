@@ -31,7 +31,7 @@ Ubuntu ( GUI )
 
 
 Using Command line
--------------
+--------------------
 
 .. code::
 

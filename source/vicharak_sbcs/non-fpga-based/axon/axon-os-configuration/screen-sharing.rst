@@ -1,6 +1,6 @@
-##############################
+################################
 Screen Sharing on Axon via X2Go
-##############################
+################################
 
 This guide explains how to enable desktop sharing on the Axon single‑board computer using X2Go. It covers installation, configuration, and important notes to facilitate screen sharing from the running display (e.g., :0).
 

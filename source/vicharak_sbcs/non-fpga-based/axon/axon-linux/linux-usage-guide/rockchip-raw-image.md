@@ -117,7 +117,7 @@ If `fsck` reports serious errors or can't read the partition, recheck your `dd` 
 3. Choose the target device (e.g., `/dev/sdX` for SD Card or USB, `/dev/nvme0n1` for NVMe).
 4. Click **Flash** and wait for the process to complete. Balena Etcher automatically verifies the flash.
 
-:::{image} ../../../../_static/images/rk3588-axon/balena.png
+:::{image} /_static/images/rk3588-axon/balena.png
 
 ## First Boot Behavior
 
