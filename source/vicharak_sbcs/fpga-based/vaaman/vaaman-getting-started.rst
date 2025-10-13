@@ -51,7 +51,7 @@ What else do you need?
 Getting Started with Vaaman
 ===========================
 
-.. image:: ../../_static/images/rk3399-vaaman/vaaman_overview.webp
+.. image:: /_static/images/rk3399-vaaman/vaaman_overview.webp
    :alt: Vaaman Overview
 
 Turning the Board On
@@ -83,7 +83,7 @@ Turning the Board On
        | **Remove SD-card if inserted**
        | This ensures the board boots from the eMMC storage.
 
-.. image:: ../../_static/images/rk3399-vaaman/vaaman-power-details.webp
+.. image:: /_static/images/rk3399-vaaman/vaaman-power-details.webp
    :width: 60%
    :alt: Vaaman power connection
 
@@ -96,7 +96,7 @@ Verify the Power LED
 - **Red LED**: Indicates that Vaaman is receiving power.
 - Check the red LED for immediate visual confirmation of successful power connection.
 
-.. image:: ../../_static/images/rk3399-vaaman/vaaman-power-led.webp
+.. image:: /_static/images/rk3399-vaaman/vaaman-power-led.webp
    :width: 40%
    :alt: Vaaman power LED
 
@@ -106,7 +106,7 @@ Verify the Status LED
 - **Blue LED**: Blinks to indicate the completion of the booting process.
 - Check the blue LED to ensure Vaaman has successfully booted and is ready for configuration.
 
-.. image:: ../../_static/images/rk3399-vaaman/vaaman-blue-led.webp
+.. image:: /_static/images/rk3399-vaaman/vaaman-blue-led.webp
    :width: 40%
    :alt: Vaaman status LEDs
 
@@ -155,7 +155,7 @@ For the initial setup process, we recommend connecting the Vaaman to a monitor u
 - **Micro HDMI Port:** Connect Vaaman to a monitor or TV using a micro HDMI to HDMI cable or adapter.
 - **Benefits:** Provides direct visual access to the graphical user interface (GUI) or command-line interface (CLI).
 
-.. image:: ../../_static/images/rk3399-vaaman/vaaman-hdmi.webp
+.. image:: /_static/images/rk3399-vaaman/vaaman-hdmi.webp
    :width: 50%
    :alt: Vaaman HDMI connection
 
@@ -256,7 +256,7 @@ Hardware Setup
      - Pin 10 (GPIO4_C3)
      - UART2DBG_RX
 
-.. image:: ../../_static/images/rk3399-vaaman/vaaman-serial-uart-pins.webp
+.. image:: /_static/images/rk3399-vaaman/vaaman-serial-uart-pins.webp
    :width: 50%
 
 Configuration
@@ -285,7 +285,7 @@ Running the Serial Console Program
         2. Open the PuTTY program and configure the serial parameters as shown
 		   in the image below.
 
-        .. image:: ../../_static/images/Putty_step.webp
+        .. image:: /_static/images/Putty_step.webp
            :width: 50%
 
         3. Click on the **Open** button to open the serial console.
@@ -303,7 +303,7 @@ Running the Serial Console Program
         - Select the serial port number and configure the serial parameters
           as shown in the image below.
 
-        .. image:: ../../_static/images/teraterm-configuration.webp
+        .. image:: /_static/images/teraterm-configuration.webp
            :width: 50%
 
         3. Click on the **OK** button to open the serial console.
@@ -324,7 +324,7 @@ Running the Serial Console Program
         - Select the serial port number and configure the serial parameters as
           shown in the image below.
 
-        .. image:: ../../_static/images/gtkterm-configuration.webp
+        .. image:: /_static/images/gtkterm-configuration.webp
            :width: 50%
 
         3. Click on the **OK** button to open the serial console.
@@ -430,7 +430,7 @@ To access Vaaman via SSH, you can use either of the following commands:
     2. Reboot the system.
     
 Vaaman Boot modes
-================
+==================
 
 .. list-table::
    :widths: 20 40

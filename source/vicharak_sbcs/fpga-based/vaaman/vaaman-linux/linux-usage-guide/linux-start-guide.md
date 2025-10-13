@@ -101,7 +101,7 @@ To access Vaaman SBC through the serial interface, A USB to UART serial cable or
 
 :::
 
-:::{image} ../../../../_static/images/rk3399-vaaman/vaaman-serial-uart-pins.webp
+:::{image} /_static/images/rk3399-vaaman/vaaman-serial-uart-pins.webp
 :width: 50%
 :::
 
@@ -148,7 +148,7 @@ Press **Ctrl+Shift+S**.
 By using either of these methods, you will be able to access the configuration settings in GTK-Term,
 where you can make adjustments to the port settings for your serial connection, as shown in the image below:
 
-:::{image} ../../../../_static/images/gtkterm-configuration.webp
+:::{image} /_static/images/gtkterm-configuration.webp
 :width: 50%
 :::
 

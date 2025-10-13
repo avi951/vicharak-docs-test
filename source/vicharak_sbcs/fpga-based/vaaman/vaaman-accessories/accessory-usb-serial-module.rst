@@ -4,7 +4,7 @@
  USB to UART Serial Converter
 #############################
 
-.. image:: ../../../_static/images/rk3399-vaaman/accessory-usb-serial-module.webp
+.. image:: /_static/images/rk3399-vaaman/accessory-usb-serial-module.webp
    :width: 40%
    :align: center
 

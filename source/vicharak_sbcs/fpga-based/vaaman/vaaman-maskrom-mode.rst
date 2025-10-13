@@ -113,7 +113,7 @@ Methods to enter Maskrom mode
         2. Connect the USB to UART serial converter to the board and your
            host computer.
 
-        .. image:: ../../_static/images/rk3399-vaaman/vaaman-serial-uart-pins.webp
+        .. image:: /_static/images/rk3399-vaaman/vaaman-serial-uart-pins.webp
            :width: 50%
 
         3. Power on the board using the power delivery adapter. Open the serial
@@ -142,7 +142,7 @@ Methods to enter Maskrom mode
         2. Connect the USB to UART serial converter to the board and your
            host computer.
 
-        .. image:: ../../_static/images/rk3399-vaaman/vaaman-serial-uart-pins.webp
+        .. image:: /_static/images/rk3399-vaaman/vaaman-serial-uart-pins.webp
            :width: 50%
 
         3. Power on the board using the power delivery adapter.

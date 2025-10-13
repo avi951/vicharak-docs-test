@@ -23,7 +23,7 @@ With its compact size, the Vaaman SBC is suitable for
 options`. Overall, it empowers developers to create innovative solutions
 that require both processing power and hardware customization.
 
-.. image:: ../../_static/images/rk3399-vaaman/Vaaman-top.webp
+.. image:: /_static/images/rk3399-vaaman/Vaaman-top.webp
    :width: 50%
    :align: left
 
@@ -39,6 +39,8 @@ that require both processing power and hardware customization.
    Vaaman Remote Upload Documentation <vaaman-remote-upload>
    Periplex <vaaman-periplex/index>
    Frequently Asked Questions <vaaman-faq>
+   Vaaman Downloads <vaaman-downloads>
+   Vaaman Accessories <vaaman-accessories>
 
 .. note::
 
