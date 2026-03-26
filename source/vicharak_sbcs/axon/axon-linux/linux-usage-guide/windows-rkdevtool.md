@@ -112,3 +112,17 @@ Please allow a few minutes for the process to finalize.
 :::{tip}
 If you need for guidance, Watch Tutorial on [How to flash eMMC image using Windows RKDevTool ?](https://www.youtube.com/watch?v=O40fGwKvf_c&t=3s&ab_channel=Vicharak)
 :::
+
+## Flash RAW Image in eMMC to Axon Board
+
+:::{tip}
+Raw image can be flashed in any type of Multi-Media devices like, SD Card, USB including eMMC as well.
+Flashing guide in SD Card(#
+:::
+
+
+**1. Once the Axon board is booted into **Maskrom mode**, you can flash the **RAW image** in eMMC to the board.**
+
+**2. [Downloade Loader](https://downloads.vicharak.in/vicharak-axon/rk3588_spl_loader_v1.14.113.bin)**
+
+**3. [Download Video Guide and do follow same instruction](https://vicharak.in/files/Flash-All-Image.mp4.7z)**
