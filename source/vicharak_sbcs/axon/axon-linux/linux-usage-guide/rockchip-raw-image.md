@@ -15,9 +15,7 @@ This document provides instructions for flashing OS images to supported storage 
 Ensure the correct device path (e.g., `/dev/sdX`, `/dev/nvme0n1`) is used to avoid overwriting important data.
 :::
 
-[Download eMMC Beta Image](https://downloads.vicharak.in/vicharak-axon/beta-releases/V1.0_vicharak_axon_6.1_03072025-ubuntu-24.04-beta-emmc.tar.gz)
-
-[Download Raw Beta Image](https://downloads.vicharak.in/vicharak-axon/beta-releases/V1.0_vicharak_axon_6.1_03072025-ubuntu-24.04-beta-raw.tar.gz)
+[Download Raw Image](https://downloads.vicharak.in/vicharak-axon/ubuntu/24_noble/)
 
 :::{note}
 Raw image can be used on SD Card, NVMe, and USB Storage Media devices.
@@ -59,10 +57,15 @@ mmcblk1     179:0    0  64G  0 disk
 Always verify the device path (e.g., /dev/nvme0n1, /dev/sda, /dev/mmcblk0, or /dev/mmcblk1) using the lsblk output to avoid overwriting critical data. Ensure the device is not mounted before flashing.
 :::
 
-### Flashing to eMMC
+### Flashing RAW image to eMMC
 
 Refer to the detailed guide:  
-**[eMMC Flashing Guide (Vicharak Docs)](https://docs.vicharak.in/vicharak_sbcs/axon/axon-linux/linux-usage-guide/)**
+
+#### Windows
+**[Using Rkdevtool](https://docs.vicharak.in/vicharak_sbcs/axon/axon-linux/linux-usage-guide/windows-rkdevtool/#flash-raw-image-in-emmc-to-axon-board)**
+
+#### Linux
+**[Using Upgrade Tool](https://docs.vicharak.in/vicharak_sbcs/axon/axon-linux/linux-usage-guide/linux-axon-upgrade-tool/#flash-raw-image-in-axon)**
 
 ### Flashing with dd
 
