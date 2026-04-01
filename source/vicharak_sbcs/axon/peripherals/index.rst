@@ -8,7 +8,7 @@ Axon supports a wide variety of peripherals to expand its functionality and inte
 
 .. toctree::
    :maxdepth: 1
-    
+
    RTC <rtc>
    GPIO <gpio>
    I2C <i2c>
