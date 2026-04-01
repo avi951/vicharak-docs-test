@@ -10,15 +10,20 @@ The Analog MIC input on the Axon board provides a flexible interface for acousti
 Wiring and connectors
 ----------------------
 
-* For Single ended mic:
+- Connector Type : (Wire To board) JST
+- Pin : 2 Pin
+- Pitch : 1.25mm
 
-  * Mic output → ANALOG_MIC pin (+)
-  * Mic ground → GND (GPIO GND) on axon header
+For Single ended mic: `Reference Mic To Buy <https://robu.in/product/microphone-97mm-pack-of-3/>`_
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* For Differential mic:
+* Mic output → ANALOG_MIC pin (+)
+* Mic ground → GND (GPIO GND) on `Axon Header <https://docs.vicharak.in/vicharak_sbcs/axon/axon-gpio-description/#axon-gpios-header>`_
 
-  * Mic output → ANALOG_MIC pin (+)
-  * Mic ground → ANALOG_MIC pin (-)
+For Differential mic:
+^^^^^^^^^^^^^^^^^^^^^^
+* Mic output → ANALOG_MIC pin (+)
+* Mic ground → ANALOG_MIC pin (-)
 
 How to Setup
 ------------

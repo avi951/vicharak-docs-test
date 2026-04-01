@@ -27,7 +27,7 @@ Hardware Details
 Reference/Buy RTC
 ------------------
 
-User can buy `Raspberry Pi compatible RTC Battery CR302 <https://thinkrobotics.com/products/rtc-battery-rpi5?variant=49314316943677>`_
+User can buy `Raspberry Pi compatible RTC Battery CR2032 <https://thinkrobotics.com/products/rtc-battery-rpi5?variant=49314316943677>`_
 with Rated Voltage 3V (Max Voltage 3.3V )
 
 
@@ -53,19 +53,19 @@ Check RTC time:
 
 .. code-block:: bash
 
-   hwclock --show
+   sudo hwclock --show
 
 Sync system time to RTC:
 
 .. code-block:: bash
 
-   hwclock --systohc
+   sudo hwclock --systohc
 
 Sync RTC time to system:
 
 .. code-block:: bash
 
-   hwclock --hctosys
+   sudo hwclock --hctosys
 
 Notes
 -----

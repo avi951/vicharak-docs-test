@@ -15,9 +15,18 @@ Hardware Interface
 .. image:: /_static/images/rk3588-axon/axon-audio.webp
    :width: 60%
 
-- **Speaker Specifications:**
-  - Load Impedance: 4 ohm
-  - Rated Power: 3W
+Speaker Specifications
+-----------------------
+- Connector Type : (Wire To board) JST
+- Pin : 2 Pin
+- Pitch : 1.25mm
+- Load Impedance: 4 ohm
+- Rated Power: 3W
+
+Reference Speaker
+==================
+
+User can buy `TR-WS-2014B Ultra-Thin Cavity Speaker <https://techiesms.com/product/tr-ws-2014b-ultra-thin-cavity-speaker/>`_
 
 How to Setup
 ============
