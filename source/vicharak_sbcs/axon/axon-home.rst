@@ -6,9 +6,21 @@
 
 The **Axon Board Computer** (SBC) is powered by rockchip's **RK3588**
 
-.. image:: ../../_static/images/rk3588-axon/axon-top.webp
-   :width: 50%
-   :align: left
+.. grid:: 2
+
+    .. grid-item::
+
+        .. image:: /_static/images/rk3588-axon/axon-top.webp
+                :width: 100%
+                :alt: axon top
+
+
+    .. grid-item::
+
+        .. image:: /_static/images/rk3588-axon/axon-back.webp
+                :width: 100%
+                :alt: axon back
+
 
 .. toctree::
    :glob:
