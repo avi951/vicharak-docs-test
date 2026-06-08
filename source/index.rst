@@ -12,23 +12,25 @@
 Welcome to Vicharak's documentation!
 ####################################
 
-Vicharak brings to you the powerful rk3399 based Vaaman, the highly advanced rk3588 based Axon, and the efficient rk3576 based Axon Lite single-board computers (SBCs).
-Designed for both hobbyists and professionals, these SBCs offer unparalleled performance and versatility for a wide range of
-applications including IoT, AI and multimedia processing.
+Vicharak offers a comprehensive range of single-board computers (SBCs) across the Vaaman and Axon families, powered by leading processors including the rk3399, rk3588, rk3576, and QCS6490. Designed for both hobbyists and professionals, our SBCs deliver exceptional performance and versatility for applications spanning IoT, AI/ML, embedded systems, and multimedia processing.
 
 .. |vaaman_top| image:: _static/images/rk3399-vaaman/Vaaman-top.webp
-   :width: 100%
+   :width: 80%
    :alt: vaaman top
 
 .. |axon_top| image:: _static/images/rk3588-axon/axon-top.webp
-   :width: 100%
+   :width: 80%
    :alt: axon top
 
 .. |axon_lite_top| image:: _static/images/rk3576-axon-lite/axon-lite-top.webp
-   :width: 100%
+   :width: 80%
    :alt: axon lite top
 
-.. grid:: 1 1 3 3
+.. |axon_mini_top| image:: _static/images/qcs6490-axon-mini/axon-mini-back.webp
+   :width: 80%
+   :alt: axon-mini top
+
+.. grid:: 1 1 2 2
 
     .. grid-item-card:: Vaaman SBC
        :link: vicharak_sbcs/vaaman/vaaman-home
@@ -51,6 +53,13 @@ applications including IoT, AI and multimedia processing.
 
        |axon_lite_top|
 
+    .. grid-item-card:: Axon-Mini SBC
+       :link: vicharak_sbcs/axon_mini/axon-mini-home
+       :link-type: doc
+       :shadow: md
+
+       |axon_mini_top|
+
 .. toctree::
    :glob:
    :caption: Contents
@@ -60,6 +69,7 @@ applications including IoT, AI and multimedia processing.
    Vaaman SBC <vicharak_sbcs/vaaman/vaaman-home>
    Axon SBC <vicharak_sbcs/axon/axon-home>
    Axon Lite SBC <vicharak_sbcs/axon-lite/axon-lite-home>
+   Axon-Mini SBC <vicharak_sbcs/axon_mini/axon-mini-home>
 
 .. toctree::
    :glob:
