@@ -12,7 +12,7 @@
 Welcome to Vicharak's documentation!
 ####################################
 
-Vicharak offers a comprehensive range of single-board computers (SBCs) across the Vaaman and Axon families, powered by leading processors including the rk3399, rk3588, rk3576, and QCS6490. Designed for both hobbyists and professionals, our SBCs deliver exceptional performance and versatility for applications spanning IoT, AI/ML, embedded systems, and multimedia processing.
+Vicharak offers a comprehensive range of single-board computers (SBCs) across the Vaaman and Axon families, powered by leading processors including the RK3399, RK3588, RK3576, and QCS6490. Designed for both hobbyists and professionals, our SBCs deliver exceptional performance and versatility for applications spanning IoT, AI/ML, embedded systems, and multimedia processing.
 
 .. |vaaman_top| image:: _static/images/rk3399-vaaman/Vaaman-top.webp
    :width: 80%
@@ -26,9 +26,9 @@ Vicharak offers a comprehensive range of single-board computers (SBCs) across th
    :width: 80%
    :alt: axon lite top
 
-.. |axon_mini_top| image:: _static/images/qcs6490-axon-mini/axon-mini-back.webp
-   :width: 80%
-   :alt: axon-mini top
+.. |axon_mini_top| image:: _static/images/qcs6490-axon-mini/axon-mini-top.webp
+   :width: 60%
+   :alt: axon mini top
 
 .. grid:: 1 1 2 2
 
@@ -53,8 +53,8 @@ Vicharak offers a comprehensive range of single-board computers (SBCs) across th
 
        |axon_lite_top|
 
-    .. grid-item-card:: Axon-Mini SBC
-       :link: vicharak_sbcs/axon_mini/axon-mini-home
+    .. grid-item-card:: Axon Mini SBC
+       :link: vicharak_sbcs/axon-mini/axon-mini-home
        :link-type: doc
        :shadow: md
 
@@ -69,7 +69,7 @@ Vicharak offers a comprehensive range of single-board computers (SBCs) across th
    Vaaman SBC <vicharak_sbcs/vaaman/vaaman-home>
    Axon SBC <vicharak_sbcs/axon/axon-home>
    Axon Lite SBC <vicharak_sbcs/axon-lite/axon-lite-home>
-   Axon-Mini SBC <vicharak_sbcs/axon_mini/axon-mini-home>
+   Axon Mini SBC <vicharak_sbcs/axon-mini/axon-mini-home>
 
 .. toctree::
    :glob:
@@ -79,6 +79,7 @@ Vicharak offers a comprehensive range of single-board computers (SBCs) across th
    Vaaman Downloads <vicharak_sbcs/vaaman/vaaman-downloads>
    Axon Downloads <vicharak_sbcs/axon/axon-downloads>
    Axon Lite Downloads <vicharak_sbcs/axon-lite/axon-lite-downloads>
+   Axon Mini Downloads <vicharak_sbcs/axon-mini/axon-mini-downloads>
 
 .. toctree::
    :glob:
@@ -88,6 +89,7 @@ Vicharak offers a comprehensive range of single-board computers (SBCs) across th
    Vaaman Accessories <vicharak_sbcs/vaaman/vaaman-accessories> 
    Axon Accessories <vicharak_sbcs/axon/axon-accessories>
    Axon Lite Accessories <vicharak_sbcs/axon-lite/axon-lite-accessories>
+   Axon Mini Accessories <vicharak_sbcs/axon-mini/axon-mini-accessories>
 
 .. toctree::
    :glob:

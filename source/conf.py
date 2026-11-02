@@ -98,7 +98,7 @@ source_suffix = [".rst", ".md"]
 
 # Set templates and exclude patterns
 templates_path = ["_templates"]
-exclude_patterns = ["_build", "vicharak_sbcs/axon-lite/axon-lite-linux/linux-development-guide", "vicharak_sbcs/axon-lite/axon-lite-linux/linux-configuration-guide", "vicharak_sbcs/axon-lite/axon-lite-accessories/fan.rst"]
+exclude_patterns = ["_build", "vicharak_sbcs/axon-lite/axon-lite-linux/linux-development-guide", "vicharak_sbcs/axon-lite/axon-lite-linux/linux-configuration-guide", "vicharak_sbcs/axon-lite/axon-lite-accessories/fan.rst", "vicharak_sbcs/axon-mini/axon-mini-linux/linux-development-guide", "vicharak_sbcs/axon-mini/axon-mini-linux/linux-configuration-guide"]
 
 # HTML settings
 html_theme = "sphinxawesome_theme"
